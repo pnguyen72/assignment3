@@ -1,0 +1,24 @@
+video {
+  display: none;
+}
+
+#grid-container {
+  height: 200vh;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows:
+    1.25fr /*  logo    image */
+    2.75fr /*  nav     image */
+    0.25fr /*  social  menu */
+    0.75fr /*  social  subscribe */
+    1.75fr /*  social  main */
+    2.5fr /*   blank   main */
+    0.75fr; /* footer footer */
+  grid-template-areas:
+    "logo image"
+    "nav image"
+    "social menu"
+    "social subscribe"
+    "social main"
+    "blank main"
+    "footer footer";
+}

@@ -1,0 +1,46 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#grid-container {
+  display: grid;
+  grid-gap: 4px;
+  background-color: brown;
+  padding: 4px;
+}
+
+#grid-container > div {
+  background-color: papayawhip;
+  text-align: center;
+  font-size: 24pt;
+}
+
+#logo {
+  grid-area: logo;
+}
+#nav {
+  grid-area: nav;
+}
+#social {
+  grid-area: social;
+}
+#blank {
+  grid-area: blank;
+}
+#image {
+  grid-area: image;
+}
+#menu {
+  grid-area: menu;
+}
+#subscribe {
+  grid-area: subscribe;
+}
+#main {
+  grid-area: main;
+}
+#footer {
+  grid-area: footer;
+}
