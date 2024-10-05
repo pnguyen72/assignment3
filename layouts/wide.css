@@ -6,7 +6,7 @@ video,
 
 #grid-container {
   height: 200vh;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows:
     1.25fr /*  logo    image */
     2.75fr /*  nav     image */
@@ -23,4 +23,8 @@ video,
     "social main"
     "blank main"
     "footer footer";
+}
+
+#main {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }

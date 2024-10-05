@@ -51,7 +51,17 @@ body {
 #image > img {
   height: 100%;
   width: 100%;
-  max-width: max-content;
-  max-height: max-content;
   object-fit: contain;
+  max-height: fit-content;
+  max-width: fit-content;
+}
+
+#main {
+  display: grid;
+}
+
+#main > div {
+  border: 1pt solid black;
+  margin: 12pt;
+  padding: 6pt;
 }

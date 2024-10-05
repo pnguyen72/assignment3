@@ -7,14 +7,14 @@ video,
 }
 
 #grid-container {
-  height: 230vh;
+  height: 180vh;
   grid-template-columns: 1fr 2.5fr;
   grid-template-rows:
     1fr /*    logo  &  nav */
     4fr /*    image */
     0.25fr /* menu */
     0.75fr /* subscribe */
-    5fr /*    main */
+    4.5fr /*  main */
     0.5fr; /* footer */
 
   grid-template-areas:
@@ -24,4 +24,8 @@ video,
     "subscribe subscribe"
     "main main"
     "footer footer";
+}
+
+#main {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }

@@ -24,3 +24,7 @@ video,
     "main"
     "footer";
 }
+
+#main {
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
