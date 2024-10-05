@@ -1,6 +1,8 @@
 video,
 #social,
-#blank {
+#blank,
+#wide-image,
+#narrow-image {
   display: none;
 }
 

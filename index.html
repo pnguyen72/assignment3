@@ -7,24 +7,24 @@
     <!-- prettier-ignore -->
     <link 
       rel="stylesheet" 
-      media="(min-width: 1600px)" 
-      href="ultrawide.css" 
+      media="(min-width: 1601px)" 
+      href="layouts/ultrawide.css" 
     />
     <link
       rel="stylesheet"
-      media="(max-width: 1599px) and (min-width: 1281px)"
-      href="wide.css"
+      media="(max-width: 1600px) and (min-width: 1281px)"
+      href="layouts/wide.css"
     />
     <link
       rel="stylesheet"
       media="(max-width: 1280px) and (min-width: 701px)"
-      href="medium.css"
+      href="layouts/medium.css"
     />
     <!-- prettier-ignore -->
     <link 
       rel="stylesheet"
       media="(max-width: 700px)" 
-      href="narrow.css" 
+      href="layouts/narrow.css" 
     />
   </head>
   <body>
@@ -36,7 +36,23 @@
       <div id="nav">nav</div>
       <div id="social">social</div>
       <div id="blank"></div>
-      <div id="image">image</div>
+      <figure id="image">
+        <img
+          src="https://dummyimage.com/1000x600/000/fff"
+          id="wide-image"
+          alt=""
+        />
+        <img
+          src="https://dummyimage.com/800x600/000/fff"
+          id="medium-image"
+          alt=""
+        />
+        <img
+          src="https://dummyimage.com/600x800/000/fff"
+          id="narrow-image"
+          alt=""
+        />
+      </figure>
       <div id="menu">menu</div>
       <div id="subscribe">subscribe</div>
       <div id="main">main</div>

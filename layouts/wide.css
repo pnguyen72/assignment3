@@ -1,4 +1,6 @@
-video {
+video,
+#medium-image,
+#narrow-image {
   display: none;
 }
 

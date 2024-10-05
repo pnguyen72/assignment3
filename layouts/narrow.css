@@ -1,7 +1,9 @@
 video,
 #social,
 #blank,
-#menu {
+#menu,
+#wide-image,
+#medium-image {
   display: none;
 }
 
