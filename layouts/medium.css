@@ -29,3 +29,13 @@ video,
 #main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+#shortcap {
+  font-size: 24.5pt;
+  bottom: calc(10% + 47px);
+}
+
+#longcap {
+  font-size: 21pt;
+  bottom: 10%;
+}

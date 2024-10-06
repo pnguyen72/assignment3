@@ -13,7 +13,6 @@ body {
 #grid-container > * {
   background-color: papayawhip;
   text-align: center;
-  font-size: 24pt;
 }
 
 #logo {
@@ -46,6 +45,8 @@ body {
 
 #image {
   margin: 0pt;
+  display: inline-block;
+  position: relative;
 }
 
 #image > img {
@@ -63,4 +64,21 @@ body {
   border: 1pt solid black;
   margin: 12pt;
   padding: 6pt;
+}
+
+.caption {
+  position: absolute;
+  margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+#shortcap {
+  background-color: white;
+}
+
+#longcap {
+  background-color: brown;
+  color: white;
 }

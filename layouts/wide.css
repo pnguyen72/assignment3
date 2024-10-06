@@ -5,7 +5,7 @@ video,
 }
 
 #grid-container {
-  height: 200vh;
+  height: 150vh;
   grid-template-columns: 1fr 5fr;
   grid-template-rows:
     1.25fr /*  logo    image */
@@ -27,4 +27,14 @@ video,
 
 #main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#shortcap {
+  font-size: 28pt;
+  bottom: calc(10% + 55px);
+}
+
+#longcap {
+  font-size: 24pt;
+  bottom: 10%;
 }

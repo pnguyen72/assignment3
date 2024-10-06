@@ -8,14 +8,14 @@ video,
 }
 
 #grid-container {
-  height: 400vh;
+  height: 300vh;
   grid-template-rows:
     0.25fr /*  nav */
     0.75fr /*  logo */
     2fr /*     image */
-    0.75fr /*  subscribe */
+    0.5fr /*  subscribe */
     8fr /*     main */
-    0.25fr; /* footer */
+    0.5fr; /* footer */
   grid-template-areas:
     "nav"
     "logo"
@@ -27,4 +27,19 @@ video,
 
 #main {
   grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.caption {
+  width: 100%;
+  text-align: left;
+  padding: initial;
+}
+#shortcap {
+  font-size: 21pt;
+  bottom: 29px;
+}
+
+#longcap {
+  font-size: 18pt;
+  bottom: 0%;
 }
