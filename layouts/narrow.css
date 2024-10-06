@@ -41,5 +41,10 @@ video,
 
 #longcap {
   font-size: 18pt;
-  bottom: 0%;
+  bottom: 0;
+}
+
+#image > img {
+  min-height: 50vh;
+  max-height: 50vh;
 }
