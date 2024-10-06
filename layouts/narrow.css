@@ -1,9 +1,7 @@
 video,
 #social,
 #blank,
-#menu,
-#wide-image,
-#medium-image {
+#menu {
   display: none;
 }
 
@@ -45,6 +43,5 @@ video,
 }
 
 #image > img {
-  min-height: 50vh;
-  max-height: 50vh;
+  height: 50vh;
 }

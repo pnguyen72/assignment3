@@ -1,6 +1,4 @@
-video,
-#medium-image,
-#narrow-image {
+video {
   display: none;
 }
 
@@ -40,6 +38,5 @@ video,
 }
 
 #image > img {
-  min-height: 60vh;
-  max-height: 60vh;
+  height: 60vh;
 }
