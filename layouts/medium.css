@@ -1,29 +1,33 @@
 video,
-#social,
+aside,
 #blank {
   display: none;
 }
 
 #grid-container {
-  height: 180vh;
-  grid-template-columns: 1fr 2.5fr;
+  height: 150vh;
+  grid-template-columns: 1fr 700px 1fr;
   grid-template-rows:
-    1fr /*    logo  &  nav */
-    4fr /*    image */
+    180px /*  header */
+    420px /*  image */
     0.25fr /* menu */
     0.75fr /* subscribe */
     4.5fr /*  main */
     0.5fr; /* footer */
 
   grid-template-areas:
-    "logo      nav"
-    "image     image"
-    "menu      menu"
-    "subscribe subscribe"
-    "main      main"
-    "footer    footer";
+    "margin-l header    margin-r"
+    "margin-l image     margin-r"
+    "margin-l menu      margin-r"
+    "margin-l subscribe margin-r"
+    "margin-l main      margin-r"
+    "margin-l footer    margin-r";
 }
-
+header {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-template-areas: "logo nav";
+}
 #main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -39,5 +43,18 @@ video,
 }
 
 #image > img {
-  height: 55vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+nav {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+nav > ul {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+nav li {
+  gap: 8pt;
 }

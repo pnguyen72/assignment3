@@ -51,15 +51,15 @@ aside {
   grid-area: footer;
 }
 
+#logo {
+  background-color: brown;
+  margin: 10%;
+  border-radius: 50%;
+}
 #image {
   margin: 0pt;
   display: inline-block;
   position: relative;
-}
-
-#image > img {
-  width: 100%;
-  object-fit: contain;
 }
 
 #main {
@@ -90,28 +90,27 @@ aside {
   color: white;
 }
 
+.nav-icon {
+  margin: auto;
+}
+.nav-icon > img {
+  height: 50px;
+  width: 50px;
+  display: block;
+  /* background-color: brown; */
+}
 nav {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 12pt;
+  margin-right: 12pt;
 }
 nav > ul {
   padding-inline-start: 0;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
-
-.nav-icon,
-.nav-icon > img {
-  height: 40px;
-  width: 40px;
-}
-
 nav li {
   display: grid;
-  grid-template-columns: 60px 1fr;
-  align-items: center;
-  text-align: left;
 }
+/* 
+.nav-text{
+    background-color: aqua;
+} */
