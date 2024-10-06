@@ -14,6 +14,12 @@ body {
   background-color: papayawhip;
   text-align: center;
 }
+#left-margin {
+  grid-area: margin-l;
+}
+#right-margin {
+  grid-area: margin-r;
+}
 header {
   grid-area: header;
 }
@@ -85,9 +91,11 @@ aside {
 }
 
 nav {
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 nav > ul {
+  padding-inline-start: 0;
   margin-top: 0px;
   margin-bottom: 0px;
   height: 100%;
