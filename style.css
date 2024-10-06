@@ -14,7 +14,9 @@ body {
   background-color: papayawhip;
   text-align: center;
 }
-
+header {
+  grid-area: header;
+}
 #logo {
   grid-area: logo;
 }

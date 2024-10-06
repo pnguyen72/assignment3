@@ -4,18 +4,16 @@ video {
 
 #grid-container {
   height: 150vh;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 1200px;
   grid-template-rows:
-    1.25fr /*  logo    image */
-    2.75fr /*  nav     image */
+    600px /*   header  image */
     0.25fr /*  social  menu */
     0.75fr /*  social  subscribe */
     1.75fr /*  social  main */
     2.5fr /*   blank   main */
-    0.75fr; /* footer footer */
+    0.75fr; /* footer  footer */
   grid-template-areas:
-    "logo image"
-    "nav image"
+    "header image"
     "social menu"
     "social subscribe"
     "social main"
@@ -23,6 +21,13 @@ video {
     "footer footer";
 }
 
+header {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas:
+    "logo"
+    "nav";
+}
 #main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -35,8 +40,4 @@ video {
 #longcap {
   font-size: 24pt;
   bottom: 10%;
-}
-
-#image > img {
-  height: 60vh;
 }
