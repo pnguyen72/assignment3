@@ -18,7 +18,7 @@ body {
 #logo {
   grid-area: logo;
 }
-#nav {
+nav {
   grid-area: nav;
 }
 #social {
@@ -71,6 +71,7 @@ body {
   padding-right: 1em;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
+  opacity: 0.66;
 }
 #shortcap {
   background-color: white;
@@ -79,4 +80,28 @@ body {
 #longcap {
   background-color: brown;
   color: white;
+}
+
+nav {
+  align-items: center;
+}
+nav > ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nav-icon,
+.nav-icon > img {
+  height: 40px;
+  width: 40px;
+}
+
+nav li {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  align-items: center;
+  text-align: left;
 }
