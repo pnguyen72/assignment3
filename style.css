@@ -23,8 +23,8 @@ header {
 nav {
   grid-area: nav;
 }
-#social {
-  grid-area: social;
+aside {
+  grid-area: aside;
 }
 #blank {
   grid-area: blank;

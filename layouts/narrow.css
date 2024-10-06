@@ -8,11 +8,11 @@ video,
 #grid-container {
   height: 300vh;
   grid-template-rows:
-    0.25fr /*  nav */
-    0.75fr /*  logo */
-    2fr /*     image */
+    0.25fr /* nav */
+    0.75fr /* logo */
+    2fr /*    image */
     0.5fr /*  subscribe */
-    8fr /*     main */
+    8fr /*    main */
     0.5fr; /* footer */
   grid-template-areas:
     "nav"

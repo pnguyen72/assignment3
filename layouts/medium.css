@@ -16,12 +16,12 @@ video,
     0.5fr; /* footer */
 
   grid-template-areas:
-    "logo nav"
-    "image image"
-    "menu menu"
+    "logo      nav"
+    "image     image"
+    "menu      menu"
     "subscribe subscribe"
-    "main main"
-    "footer footer";
+    "main      main"
+    "footer    footer";
 }
 
 #main {

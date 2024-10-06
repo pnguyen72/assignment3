@@ -6,18 +6,18 @@ video {
   height: 150vh;
   grid-template-columns: 1fr 1200px;
   grid-template-rows:
-    600px /*   header  image */
-    0.25fr /*  social  menu */
-    0.75fr /*  social  subscribe */
-    1.75fr /*  social  main */
-    2.5fr /*   blank   main */
-    0.75fr; /* footer  footer */
+    600px /*   header image */
+    0.25fr /*  aside  menu */
+    0.75fr /*  aside  subscribe */
+    1.75fr /*  aside  main */
+    2.5fr /*   blank  main */
+    0.75fr; /* footer footer */
   grid-template-areas:
     "header image"
-    "social menu"
-    "social subscribe"
-    "social main"
-    "blank main"
+    "aside  menu"
+    "aside  subscribe"
+    "aside  main"
+    "blank  main"
     "footer footer";
 }
 
