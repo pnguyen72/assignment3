@@ -9,12 +9,12 @@ aside,
   height: 125vw;
   grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
-    min(25vw, 25vh)/*  header */
+    20vw /*  header */
     48vw /*  image */
-    0.25fr /* menu */
-    0.5fr /* subscribe */
-    3fr /*  main */
-    0.25fr; /* footer */
+    0.5fr /* menu */
+    1fr /* subscribe */
+    4fr /*  main */
+    0.55fr; /* footer */
 
   grid-template-areas:
     "margin-l header    margin-r"
@@ -26,7 +26,7 @@ aside,
 }
 header {
   display: grid;
-  grid-template-columns: min(25vw, 25vh) 1fr;
+  grid-template-columns: 20vw 1fr;
   grid-template-areas: "logo nav";
 }
 #main {
@@ -56,10 +56,25 @@ nav li {
 }
 
 .nav-icon > img {
-  height: 40pt;
-  width: 40pt;
+  height: 36pt;
+  width: 36pt;
 }
 
 .menu-item {
   font-size: 14pt;
+}
+
+#subscribe {
+  grid-template-columns: 72pt 1fr;
+  grid-template-rows: 72pt 1fr;
+  grid-template-areas:
+    "subscribe-icon subscribe-text"
+    "form form";
+}
+#subscribe > img {
+  height: 36pt;
+}
+
+#subscribe > p {
+  font-size: 13pt;
 }

@@ -60,3 +60,17 @@ nav > ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+#subscribe {
+  grid-template-columns: 64pt 1fr;
+  grid-template-rows: 64pt 1fr;
+  grid-template-areas:
+    "subscribe-icon subscribe-text"
+    "form form";
+}
+#subscribe > img {
+  height: 32pt;
+}
+
+#subscribe > p {
+  font-size: 12pt;
+}

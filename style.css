@@ -158,3 +158,23 @@ aside {
 .flashing {
   animation: flashing-text 2s infinite;
 }
+
+#subscribe {
+  display: grid;
+}
+#subscribe > * {
+  margin: auto;
+}
+#subscribe > img {
+  display: block;
+  grid-area: subscribe-icon;
+}
+
+#subscribe > p {
+  text-align: left;
+  grid-area: subscribe-text;
+}
+
+form {
+  grid-area: form;
+}

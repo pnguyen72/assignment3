@@ -12,7 +12,7 @@ video,
     0.75fr /*  aside  subscribe */
     2.25fr /*  aside  main */
     2fr /*   blank  main */
-    0.5fr; /* footer footer */ 
+    0.5fr; /* footer footer */
   grid-template-areas:
     "margin-l header image     margin-r"
     "margin-l header  menu      margin-r"
@@ -67,4 +67,16 @@ nav li {
 
 .menu-item {
   font-size: 16pt;
+}
+
+#subscribe {
+  grid-template-columns: 72pt 2fr 1fr;
+  grid-template-areas: "subscribe-icon subscribe-text form";
+}
+#subscribe > img {
+  height: 36pt;
+}
+
+#subscribe > p {
+  font-size: 14pt;
 }
