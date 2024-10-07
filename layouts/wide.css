@@ -35,12 +35,10 @@ header {
 }
 
 #shortcap {
-  font-size: 24pt;
-  bottom: calc(10% + 31pt);
+  bottom: calc(10% + 36pt);
 }
 
 #longcap {
-  font-size: 18pt;
   bottom: 10%;
 }
 
