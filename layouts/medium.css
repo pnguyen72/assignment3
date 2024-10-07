@@ -6,15 +6,15 @@ aside,
 }
 
 #grid-container {
-  height: 120vw;
+  height: 125vw;
   grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
     min(25vw, 25vh)/*  header */
     48vw /*  image */
-    0.5fr /* menu */
-    0.75fr /* subscribe */
-    5fr /*  main */
-    0.5fr; /* footer */
+    0.25fr /* menu */
+    0.5fr /* subscribe */
+    3fr /*  main */
+    0.25fr; /* footer */
 
   grid-template-areas:
     "margin-l header    margin-r"
@@ -58,4 +58,8 @@ nav li {
 .nav-icon > img {
   height: 40pt;
   width: 40pt;
+}
+
+.menu-item {
+  font-size: 14pt;
 }

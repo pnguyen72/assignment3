@@ -11,7 +11,7 @@ aside,
   grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
     56vw /*    header */
-    48vw /*    image */
+    60vw /*    image */
     0.5fr /*  subscribe */
     8fr /*    main */
     0.5fr; /* footer */
