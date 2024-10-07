@@ -9,7 +9,7 @@ aside,
   height: 120vw;
   grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
-    20vw /*  header */
+    min(25vw, 25vh)/*  header */
     48vw /*  image */
     0.5fr /* menu */
     0.75fr /* subscribe */
@@ -26,7 +26,7 @@ aside,
 }
 header {
   display: grid;
-  grid-template-columns: 20vw 1fr;
+  grid-template-columns: min(25vw, 25vh) 1fr;
   grid-template-areas: "logo nav";
 }
 #main {

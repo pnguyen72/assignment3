@@ -10,7 +10,7 @@ aside,
   height: 300vh;
   grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
-    0.5fr /*    header */
+    56vw /*    header */
     48vw /*    image */
     0.5fr /*  subscribe */
     8fr /*    main */
@@ -44,8 +44,8 @@ aside,
 
 header {
   display: grid;
-  grid-template-columns: 1fr 20vw 1fr;
-  grid-template-rows: 1fr 20vw;
+  grid-template-columns: 1fr 40vw 1fr;
+  grid-template-rows: 1fr 40vw;
   grid-template-areas:
     "nav nav nav"
     "margin-l logo margin-r";
@@ -59,3 +59,4 @@ nav {
 nav > ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
