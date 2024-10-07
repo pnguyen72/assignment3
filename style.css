@@ -96,7 +96,6 @@ aside {
   height: 50px;
   width: 50px;
   display: block;
-  /* background-color: brown; */
 }
 nav {
   margin-left: 12pt;
@@ -108,7 +107,6 @@ nav > ul {
 }
 nav li {
   display: grid;
-  /* background-color: cyan; */
 }
 
 a {

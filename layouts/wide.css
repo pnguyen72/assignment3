@@ -1,13 +1,14 @@
-video {
+video,
+.logo-margin {
   display: none;
 }
 
 #grid-container {
   height: 150vh;
-  grid-template-columns: 1fr 240px 1000px 1fr;
+  grid-template-columns: 1fr 220px 1000px 1fr;
   grid-template-rows:
     600px /*   margin-l header image */
-    0.25fr /*  margin-l aside  menu */
+    0.5fr /*  margin-l aside  menu */
     0.75fr /*  margin-l aside  subscribe */
     1.75fr /*  margin-l aside  main */
     2.5fr /*   margin-l blank  main */
@@ -23,11 +24,12 @@ video {
 
 header {
   display: grid;
-  grid-template-rows: 240px 1fr;
+  grid-template-rows: 220px 1fr;
   grid-template-areas:
     "logo"
     "nav";
 }
+
 #main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }

@@ -1,16 +1,17 @@
 video,
 aside,
-#blank {
+#blank,
+.logo-margin {
   display: none;
 }
 
 #grid-container {
   height: 150vh;
-  grid-template-columns: 1fr 680px 1fr;
+  grid-template-columns: 1fr 670px 1fr;
   grid-template-rows:
-    180px /*  header */
-    408px /*  image */
-    0.25fr /* menu */
+    200px /*  header */
+    469px /*  image */
+    0.5fr /* menu */
     0.75fr /* subscribe */
     4.5fr /*  main */
     0.5fr; /* footer */
@@ -25,7 +26,7 @@ aside,
 }
 header {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 200px 1fr;
   grid-template-areas: "logo nav";
 }
 #main {
@@ -33,18 +34,19 @@ header {
 }
 
 #shortcap {
-  font-size: 24.5pt;
-  bottom: calc(10% + 47px);
+  font-size: 21pt;
+  bottom: calc(10% + 41px);
 }
 
 #longcap {
-  font-size: 21pt;
+  font-size: 18pt;
   bottom: 10%;
 }
 
 #image > img {
   width: 100%;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
 }
 
 nav {
