@@ -6,14 +6,14 @@ aside,
 }
 
 #grid-container {
-  height: 150vh;
-  grid-template-columns: 1fr min(70vh, 90vw) 1fr;
+  height: 120vw;
+  grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
-    20vh /*  header */
-    42vh /*  image */
+    20vw /*  header */
+    48vw /*  image */
     0.5fr /* menu */
     0.75fr /* subscribe */
-    4.5fr /*  main */
+    5fr /*  main */
     0.5fr; /* footer */
 
   grid-template-areas:
@@ -26,7 +26,7 @@ aside,
 }
 header {
   display: grid;
-  grid-template-columns: 20vh 1fr;
+  grid-template-columns: 20vw 1fr;
   grid-template-areas: "logo nav";
 }
 #main {
@@ -34,12 +34,12 @@ header {
 }
 
 #shortcap {
-  font-size: 3.5vh;
-  bottom: calc(10% + 4.5vh);
+  font-size: 20pt;
+  bottom: calc(10% + 25pt);
 }
 
 #longcap {
-  font-size: 2.625vh;
+  font-size: 15pt;
   bottom: 10%;
 }
 

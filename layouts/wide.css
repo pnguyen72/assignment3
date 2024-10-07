@@ -4,15 +4,15 @@ video,
 }
 
 #grid-container {
-  height: 150vh;
-  grid-template-columns: 1fr min(25vh, 20vw) min(100vh, 75vw) 1fr;
+  height: 100vw;
+  grid-template-columns: 1fr 20vw 70vw 1fr;
   grid-template-rows:
-    60vh /*   margin-l header image */
-    0.5fr /*  margin-l aside  menu */
-    0.75fr /*  margin-l aside  subscribe */
-    1.75fr /*  margin-l aside  main */
-    2.5fr /*   margin-l blank  main */
-    0.75fr; /* margin-l footer footer */
+    42vw /*    header image */
+    0.5fr /*   aside  menu */
+    0.75fr /*  aside  subscribe */
+    1.75fr /*  aside  main */
+    3fr /*   blank  main */
+    0.75fr; /* footer footer */
   grid-template-areas:
     "margin-l header image     margin-r"
     "margin-l aside  menu      margin-r"
@@ -24,7 +24,7 @@ video,
 
 header {
   display: grid;
-  grid-template-rows: min(25vh, 20vw) 1fr;
+  grid-template-rows: 20vw 1fr;
   grid-template-areas:
     "logo"
     "nav";
@@ -35,12 +35,12 @@ header {
 }
 
 #shortcap {
-  font-size: 4vh;
-  bottom: calc(10% + 5.1vh);
+  font-size: 24pt;
+  bottom: calc(10% + 31pt);
 }
 
 #longcap {
-  font-size: 3vh;
+  font-size: 18pt;
   bottom: 10%;
 }
 

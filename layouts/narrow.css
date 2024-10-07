@@ -8,10 +8,10 @@ aside,
 
 #grid-container {
   height: 300vh;
-  grid-template-columns: 1fr min(70vh, 90vw) 1fr;
+  grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
-    1fr /*    header */
-    52vh /*    image */
+    0.5fr /*    header */
+    48vw /*    image */
     0.5fr /*  subscribe */
     8fr /*    main */
     0.5fr; /* footer */
@@ -33,19 +33,19 @@ aside,
   padding: initial;
 }
 #shortcap {
-  font-size: 3vh;
-  bottom: 2.7vh;
+  font-size: 16pt;
+  bottom: 20px;
 }
 
 #longcap {
-  font-size: 2.25vh;
+  font-size: 12pt;
   bottom: 0;
 }
 
 header {
   display: grid;
-  grid-template-columns: 1fr 20vh 1fr;
-  grid-template-rows: 1fr 20vh;
+  grid-template-columns: 1fr 20vw 1fr;
+  grid-template-rows: 1fr 20vw;
   grid-template-areas:
     "nav nav nav"
     "margin-l logo margin-r";
@@ -60,5 +60,5 @@ nav > ul {
 }
 
 nav {
-  font-size: 2.2vh;
+  font-size: 12pt;
 }
