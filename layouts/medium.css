@@ -6,10 +6,10 @@ aside,
 
 #grid-container {
   height: 150vh;
-  grid-template-columns: 1fr 700px 1fr;
+  grid-template-columns: 1fr 680px 1fr;
   grid-template-rows:
     180px /*  header */
-    420px /*  image */
+    408px /*  image */
     0.25fr /* menu */
     0.75fr /* subscribe */
     4.5fr /*  main */
