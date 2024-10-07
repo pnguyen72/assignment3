@@ -8,10 +8,10 @@ aside,
 
 #grid-container {
   height: 300vh;
-  grid-template-columns: 1fr 400px 1fr;
+  grid-template-columns: 1fr min(70vh, 90vw) 1fr;
   grid-template-rows:
     1fr /*    header */
-    300px /*    image */
+    52vh /*    image */
     0.5fr /*  subscribe */
     8fr /*    main */
     0.5fr; /* footer */
@@ -22,10 +22,7 @@ aside,
     "margin-l main margin-r"
     "margin-l footer margin-r";
 }
-#image > img {
-  height: 100%;
-  object-fit: cover;
-}
+
 #main {
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
@@ -36,24 +33,19 @@ aside,
   padding: initial;
 }
 #shortcap {
-  font-size: 14pt;
-  bottom: 19px;
+  font-size: 3vh;
+  bottom: 2.7vh;
 }
 
 #longcap {
-  font-size: 12pt;
+  font-size: 2.25vh;
   bottom: 0;
-}
-
-#image > img {
-  /* height: 100%; */
-  width: 100%;
 }
 
 header {
   display: grid;
-  grid-template-columns: 1fr 200px 1fr;
-  grid-template-rows: 1fr 200px;
+  grid-template-columns: 1fr 20vh 1fr;
+  grid-template-rows: 1fr 20vh;
   grid-template-areas:
     "nav nav nav"
     "margin-l logo margin-r";
@@ -65,10 +57,6 @@ nav {
 }
 nav > ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-nav li {
-  gap: 8pt;
 }
 
 .nav-icon > img {
