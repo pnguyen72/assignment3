@@ -24,7 +24,7 @@ body {
 header {
   grid-area: header;
 }
-#logo {
+#logo-container {
   grid-area: logo;
 }
 nav {
@@ -51,12 +51,10 @@ aside {
 #footer {
   grid-area: footer;
 }
-
 #logo {
-  background-color: brown;
   margin: 10%;
-  border-radius: 50%;
-  font-size: 200%;
+  height: 80%;
+  width: 80%;
 }
 #image {
   margin: 0pt;
@@ -112,7 +110,6 @@ nav > ul {
 }
 nav li {
   display: grid;
-  /* background-color: cyan; */
 }
 nav li:hover,
 .menu-item:hover {
@@ -130,9 +127,9 @@ a:hover {
 
 #menu {
   display: grid;
-  gap: 2pt;
-  background-color: brown;
-  border: 2pt solid brown;
+  gap: 1pt;
+  background-color: black;
+  border: 1pt solid black;
   grid-template-columns: repeat(4, 1fr);
 }
 .menu-item {
