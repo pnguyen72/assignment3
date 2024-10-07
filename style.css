@@ -100,12 +100,9 @@ aside {
   margin: auto;
 }
 .nav-icon > img {
-  height: 40pt;
-  width: 40pt;
   display: block;
 }
 nav {
-  font-size: 14pt;
   margin-left: 12pt;
   margin-right: 12pt;
 }

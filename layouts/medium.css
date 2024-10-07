@@ -43,6 +43,7 @@ header {
 }
 
 nav {
+  font-size: 16pt;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -54,6 +55,6 @@ nav li {
 }
 
 .nav-icon > img {
-  height: 5.5vh;
-  width: 5.5vh;
+  height: 40pt;
+  width: 40pt;
 }

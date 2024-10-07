@@ -51,13 +51,10 @@ header {
 }
 
 nav {
+  font-size: 18pt;
   margin-top: auto;
   margin-bottom: auto;
 }
 nav > ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-nav {
-  font-size: 12pt;
 }
