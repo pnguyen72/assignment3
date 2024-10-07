@@ -10,12 +10,12 @@ video,
     42vw /*    header image */
     0.5fr /*   aside  menu */
     0.75fr /*  aside  subscribe */
-    1.75fr /*  aside  main */
-    3fr /*   blank  main */
-    0.75fr; /* footer footer */
+    2.25fr /*  aside  main */
+    2fr /*   blank  main */
+    0.5fr; /* footer footer */ 
   grid-template-areas:
     "margin-l header image     margin-r"
-    "margin-l aside  menu      margin-r"
+    "margin-l header  menu      margin-r"
     "margin-l aside  subscribe margin-r"
     "margin-l aside  main      margin-r"
     "margin-l blank  main      margin-r"
@@ -61,8 +61,8 @@ nav li {
 }
 
 .nav-icon > img {
-  height: 36pt;
-  width: 36pt;
+  height: 40pt;
+  width: 40pt;
 }
 
 .menu-item {

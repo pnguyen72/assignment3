@@ -138,3 +138,7 @@ a:hover {
 .menu-item {
   background-color: cyan;
 }
+
+aside {
+  margin: auto;
+}
