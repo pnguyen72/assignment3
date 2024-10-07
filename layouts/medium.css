@@ -34,6 +34,7 @@ header {
 }
 
 #shortcap {
+  font-size: 20pt;
   bottom: calc(10% + 25pt);
 }
 
