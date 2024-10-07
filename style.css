@@ -142,3 +142,19 @@ a:hover {
 aside {
   margin: auto;
 }
+
+@keyframes flashing-text {
+  0% {
+    color: red;
+  }
+  50% {
+    color: cyan;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.flashing {
+  animation: flashing-text 2s infinite;
+}
