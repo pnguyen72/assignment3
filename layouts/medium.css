@@ -6,21 +6,25 @@ aside,
 }
 
 #grid-container {
-  height: 125vw;
+  height: 150vw;
   grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
     20vw /*  header */
     48vw /*  image */
-    0.25fr /* menu */
-    0.75fr /* subscribe */
-    4fr /*  main */
-    0.5fr; /* footer */
+    1fr /* menu */
+    1fr /* margin */
+    2fr /* subscribe */
+    1fr /* margin */
+    8fr /*  main */
+    2fr; /* footer */
 
   grid-template-areas:
     "margin-l header    margin-r"
     "margin-l image     margin-r"
     "margin-l menu      margin-r"
+    "margin-l subscribe-top margin-r"
     "margin-l subscribe margin-r"
+    "margin-l subscribe-bottom margin-r"
     "margin-l main      margin-r"
     "margin-l footer    margin-r";
 }

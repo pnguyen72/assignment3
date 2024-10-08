@@ -41,8 +41,14 @@ aside {
 #menu {
   grid-area: menu;
 }
+#subscribe-margin-top {
+  grid-area: subscribe-top;
+}
 #subscribe {
   grid-area: subscribe;
+}
+#subscribe-margin-bottom {
+  grid-area: subscribe-bottom;
 }
 #main {
   grid-area: main;

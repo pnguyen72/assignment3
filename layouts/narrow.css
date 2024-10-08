@@ -8,24 +8,31 @@ aside,
 }
 
 #grid-container {
-  height: 600vw;
+  height: 400vw;
   grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
     45vw /*    header */
     60vw /*    image */
-    0.25fr /*  subscribe */
-    9fr /*    main */
+    0.25fr /*   margin  */
+    0.5fr /*  subscribe */
+    0.25fr /*   margin  */
+    9fr /*     main */
     0.25fr; /* footer */
   grid-template-areas:
     "margin-l header margin-r"
     "margin-l image margin-r"
+    "margin-l subscribe-top margin-r"
     "margin-l subscribe margin-r"
+    "margin-l subscribe-bottom margin-r"
     "margin-l main margin-r"
     "margin-l footer margin-r";
 }
 
 #main {
   grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#main > div {
+  margin: 3vw;
 }
 
 .caption {
