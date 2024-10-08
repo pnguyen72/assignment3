@@ -17,7 +17,7 @@ aside,
     2fr /* subscribe */
     1fr /* margin */
     8fr /*  main */
-    2fr; /* footer */
+    1.5fr; /* footer */
 
   grid-template-areas:
     "margin-l header    margin-r"
