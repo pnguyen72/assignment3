@@ -56,7 +56,7 @@ aside {
   width: 80%;
 }
 #image {
-  margin: 0pt;
+  margin: 0;
   display: inline-block;
   position: relative;
 }
@@ -70,9 +70,9 @@ aside {
 }
 
 #main > div {
-  border: 1pt solid black;
-  margin: 6pt;
-  padding: 6pt;
+  border: 0.1vw solid black;
+  margin: 0.4vw;
+  padding: 0.4vw;
 }
 
 .caption {
@@ -119,9 +119,9 @@ a:hover {
 
 #menu {
   display: grid;
-  gap: 1pt;
+  gap: 0.1vw;
   background-color: black;
-  border: 1pt solid black;
+  border: 0.1vw solid black;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
 }

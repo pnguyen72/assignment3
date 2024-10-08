@@ -69,7 +69,7 @@ nav {
 }
 
 #subscribe {
-  grid-template-columns: 64pt 3fr 1fr;
+  grid-template-columns: 60pt 3fr 1fr;
   grid-template-areas: "subscribe-icon subscribe-text form";
 }
 #subscribe > img {

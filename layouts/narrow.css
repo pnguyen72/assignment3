@@ -36,7 +36,7 @@ aside,
 #shortcap {
   font-size: 2.5vw;
   bottom: 4%;
-}   
+}
 
 #longcap {
   font-size: 2vw;
@@ -52,7 +52,7 @@ header {
 }
 
 nav {
-  font-size: 18pt;
+  font-size: 4vw;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -61,16 +61,16 @@ nav {
 }
 
 #subscribe {
-  grid-template-columns: 64pt 1fr;
-  grid-template-rows: 64pt 1fr;
+  grid-template-columns: 8vw 1fr;
+  grid-template-rows: 8vw 1fr;
   grid-template-areas:
     "subscribe-icon subscribe-text"
     "form form";
 }
 #subscribe > img {
-  height: 32pt;
+  height: 5vw;
 }
-
-#subscribe > p {
-  font-size: 12pt;
+#subscribe > p,
+input {
+  font-size: 2.5vw;
 }
