@@ -9,18 +9,12 @@ body {
   align-content: center;
   flex-direction: column;
 }
-.center-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 #grid-container {
   display: grid;
 }
 #grid-container > *:not(.margin) {
   background-color: rgb(255, 239, 213, 0.8);
-  padding-left: 1vw;
-  padding-right: 1vw;
+  padding: 1vw;
 }
 #left-margin {
   grid-area: margin-l;
@@ -183,10 +177,8 @@ header {
 .menu-item:hover div {
   color: black;
 }
-
-aside > div {
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
+aside {
+  overflow-y: auto;
 }
 
 @keyframes flashing-text {

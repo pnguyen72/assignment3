@@ -9,22 +9,22 @@ video,
   grid-template-columns: 1fr 20vw 70vw 1fr;
   grid-template-rows:
     42vw /* header image */
-    1fr /*  aside  menu */
+    1fr /*  header  menu */
     1fr /*  margin margin */
     2fr /*  aside  subscribe */
-    1fr /*   margin margin */
-    6fr /*  aside  main */
+    1fr /*  aside margin */
+    4fr /*  aside  main */
     6fr /*  blank  main */
     2fr; /* footer footer */
   grid-template-areas:
-    "margin-l header image            margin-r"
-    "margin-l header menu             margin-r"
-    "margin-l aside  subscribe-top    margin-r"
-    "margin-l aside  subscribe        margin-r"
-    "margin-l aside  subscribe-bottom margin-r"
-    "margin-l aside  main             margin-r"
-    "margin-l blank  main             margin-r"
-    "margin-l footer footer           margin-r";
+    "margin-l header        image            margin-r"
+    "margin-l header        menu             margin-r"
+    "margin-l subscribe-top subscribe-top    margin-r"
+    "margin-l aside         subscribe        margin-r"
+    "margin-l aside         subscribe-bottom margin-r"
+    "margin-l aside         main             margin-r"
+    "margin-l blank         main             margin-r"
+    "margin-l footer        footer           margin-r";
 }
 
 header {
