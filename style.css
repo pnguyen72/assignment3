@@ -146,13 +146,11 @@ header {
   background-color: brown;
   color: white;
 }
-#menu a,
-nav a {
+*:not(footer) a {
   text-decoration: none;
   color: initial;
 }
-#menu a:hover,
-nav a:hover {
+*:not(footer) a:hover {
   text-decoration: underline;
 }
 
