@@ -90,6 +90,18 @@ input {
   font-size: 13pt;
 }
 
+.social-icon {
+  height: 24pt;
+}
+footer {
+  grid-template-columns: 240pt 1fr;
+  grid-template-rows:
+    1fr
+    28pt
+    1fr;
+  font-size: 12pt;
+}
+
 #main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }

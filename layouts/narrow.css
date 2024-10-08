@@ -83,3 +83,15 @@ nav {
 input {
   font-size: 2vw;
 }
+
+.social-icon {
+  height: 4.5vw;
+}
+footer {
+  grid-template-columns: 40vw 1fr;
+  grid-template-rows:
+    1fr
+    5vw
+    1fr;
+  font-size: 2.2vw;
+}

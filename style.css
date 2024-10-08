@@ -41,6 +41,12 @@ aside {
 #menu {
   grid-area: menu;
 }
+#subscribe > img {
+  grid-area: subscribe-icon;
+}
+#subscribe > p {
+  grid-area: subscribe-text;
+}
 #subscribe-margin-top {
   grid-area: subscribe-top;
 }
@@ -53,8 +59,23 @@ aside {
 #main {
   grid-area: main;
 }
-#footer {
+#footer-margin-top {
+  grid-area: footer-top;
+}
+footer {
   grid-area: footer;
+}
+#footer-margin-bottom {
+  grid-area: footer-bottom;
+}
+#legal {
+  grid-area: legal;
+}
+#footer-margin-middle {
+  grid-area: footer-middle;
+}
+#social-media {
+  grid-area: social;
 }
 #logo {
   margin: 10%;
@@ -74,6 +95,7 @@ aside {
 #main {
   display: grid;
 }
+
 header {
   background-color: lightcoral;
 }
@@ -124,12 +146,13 @@ header {
   background-color: brown;
   color: white;
 }
-a {
+#menu a,
+nav a {
   text-decoration: none;
   color: initial;
-  display: block;
 }
-a:hover {
+#menu a:hover,
+nav a:hover {
   text-decoration: underline;
 }
 
@@ -186,15 +209,23 @@ aside {
 #subscribe > * {
   margin: auto;
 }
-#subscribe > img {
-  display: block;
-  grid-area: subscribe-icon;
-}
-
-#subscribe > p {
-  grid-area: subscribe-text;
-}
-
 form {
   grid-area: form;
+}
+
+footer {
+  display: grid;
+  grid-template-areas:
+    "footer-top    footer-top"
+    "legal         social"
+    "footer-bottom footer-bottom";
+}
+#legal {
+  text-align: center;
+}
+#social-media {
+  text-align: right;
+}
+.social-icon:hover {
+  background-color: brown;
 }
