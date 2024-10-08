@@ -106,7 +106,6 @@ aside {
 #nav-container a:hover,
 .menu-item:hover {
   background-color: brown;
-  border-radius: 50%;
 }
 a {
   text-decoration: none;
