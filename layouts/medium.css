@@ -11,10 +11,10 @@ aside,
   grid-template-rows:
     20vw /*  header */
     48vw /*  image */
-    0.5fr /* menu */
-    1fr /* subscribe */
+    0.25fr /* menu */
+    0.75fr /* subscribe */
     4fr /*  main */
-    0.55fr; /* footer */
+    0.5fr; /* footer */
 
   grid-template-areas:
     "margin-l header    margin-r"
@@ -47,6 +47,9 @@ nav {
   font-size: 16pt;
   margin-top: auto;
   margin-bottom: auto;
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  grid-template-areas: "nav-margin nav";
 }
 nav > ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -56,8 +59,8 @@ nav li {
 }
 
 .nav-icon > img {
-  height: 36pt;
-  width: 36pt;
+  height: 5vw;
+  width: 5vw;
 }
 
 .menu-item {
@@ -65,16 +68,13 @@ nav li {
 }
 
 #subscribe {
-  grid-template-columns: 72pt 1fr;
-  grid-template-rows: 72pt 1fr;
-  grid-template-areas:
-    "subscribe-icon subscribe-text"
-    "form form";
+  grid-template-columns: 64pt 3fr 1fr;
+  grid-template-areas: "subscribe-icon subscribe-text form";
 }
 #subscribe > img {
-  height: 36pt;
+  height: 34pt;
 }
 
 #subscribe > p {
-  font-size: 13pt;
+  font-size: 12pt;
 }

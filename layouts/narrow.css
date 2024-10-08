@@ -2,19 +2,20 @@ video,
 aside,
 #blank,
 #menu,
-.nav-icon {
+.nav-icon,
+#nav-margin {
   display: none;
 }
 
 #grid-container {
-  height: 300vh;
+  height: 600vw;
   grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
-    56vw /*    header */
+    50vw /*    header */
     60vw /*    image */
-    0.5fr /*  subscribe */
+    0.25fr /*  subscribe */
     8fr /*    main */
-    0.5fr; /* footer */
+    0.25fr; /* footer */
   grid-template-areas:
     "margin-l header margin-r"
     "margin-l image margin-r"
@@ -44,8 +45,8 @@ aside,
 
 header {
   display: grid;
-  grid-template-columns: 1fr 40vw 1fr;
-  grid-template-rows: 1fr 40vw;
+  grid-template-columns: 1fr 35vw 1fr;
+  grid-template-rows: 1fr 35vw;
   grid-template-areas:
     "nav nav nav"
     "margin-l logo margin-r";

@@ -11,10 +11,6 @@ body {
 #grid-container {
   display: grid;
 }
-#grid-container > * {
-  background-color: papayawhip;
-  text-align: center;
-}
 #left-margin {
   grid-area: margin-l;
 }
@@ -29,6 +25,9 @@ header {
 }
 nav {
   grid-area: nav;
+}
+#nav-margin{
+    grid-area: nav-margin;
 }
 aside {
   grid-area: aside;
@@ -100,16 +99,13 @@ aside {
 .nav-icon > img {
   display: block;
 }
-nav {
-  margin-left: 12pt;
-  margin-right: 12pt;
-}
 nav > ul {
   padding-inline-start: 0;
   display: grid;
 }
 nav li {
   display: grid;
+  text-align: center
 }
 nav li:hover,
 .menu-item:hover {
@@ -131,6 +127,7 @@ a:hover {
   background-color: black;
   border: 1pt solid black;
   grid-template-columns: repeat(4, 1fr);
+  text-align: center
 }
 .menu-item {
   background-color: cyan;
@@ -154,6 +151,7 @@ aside {
 
 .flashing {
   animation: flashing-text 2s infinite;
+  text-align: center
 }
 
 #subscribe {
@@ -168,7 +166,6 @@ aside {
 }
 
 #subscribe > p {
-  text-align: left;
   grid-area: subscribe-text;
 }
 

@@ -8,10 +8,10 @@ video,
   grid-template-columns: 1fr 20vw 70vw 1fr;
   grid-template-rows:
     42vw /*    header image */
-    0.5fr /*   aside  menu */
-    0.75fr /*  aside  subscribe */
-    2.25fr /*  aside  main */
-    2fr /*   blank  main */
+    0.25fr /*   aside  menu */
+    0.5fr /*  aside  subscribe */
+    1.5fr /*  aside  main */
+    1.5fr /*   blank  main */
     0.5fr; /* footer footer */
   grid-template-areas:
     "margin-l header image     margin-r"
@@ -48,10 +48,12 @@ nav {
   font-size: 14pt;
   margin-left: auto;
   margin-right: auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "nav nav-margin";
 }
 nav > ul {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0;
   height: 100%;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
@@ -61,8 +63,8 @@ nav li {
 }
 
 .nav-icon > img {
-  height: 40pt;
-  width: 40pt;
+  height: 4vw;
+  width: 4vw;
 }
 
 .menu-item {
