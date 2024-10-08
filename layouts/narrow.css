@@ -5,7 +5,7 @@ aside,
 .nav-icon,
 #nav-margin,
 #inline-credit {
-  display: none;
+  display: none !important;
 }
 
 #grid-container {
@@ -20,13 +20,13 @@ aside,
     9fr /*     main */
     0.25fr; /* footer */
   grid-template-areas:
-    "margin-l header margin-r"
-    "margin-l image margin-r"
-    "margin-l subscribe-top margin-r"
-    "margin-l subscribe margin-r"
+    "margin-l header           margin-r"
+    "margin-l image            margin-r"
+    "margin-l subscribe-top    margin-r"
+    "margin-l subscribe        margin-r"
     "margin-l subscribe-bottom margin-r"
-    "margin-l main margin-r"
-    "margin-l footer margin-r";
+    "margin-l main             margin-r"
+    "margin-l footer           margin-r";
 }
 
 #main {

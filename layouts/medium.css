@@ -3,7 +3,7 @@ aside,
 #blank,
 .logo-margin,
 #block-credit {
-  display: none;
+  display: none !important;
 }
 
 #grid-container {
@@ -45,7 +45,7 @@ header {
 }
 
 nav {
-  font-size: 1.8vw;
+  font-size: 2vw;
   margin-top: auto;
   margin-bottom: auto;
   display: grid;

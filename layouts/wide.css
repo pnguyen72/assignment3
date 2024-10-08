@@ -1,7 +1,7 @@
 video,
 .logo-margin,
 #block-credit {
-  display: none;
+  display: none !important;
 }
 
 #grid-container {
@@ -45,7 +45,7 @@ header {
 }
 
 nav {
-  font-size: 1.4vw;
+  font-size: 1.5vw;
   margin-left: auto;
   margin-right: auto;
   display: grid;
