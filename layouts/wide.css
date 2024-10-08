@@ -1,5 +1,6 @@
 video,
-.logo-margin {
+.logo-margin,
+#block-credit {
   display: none;
 }
 
@@ -34,15 +35,10 @@ header {
     "nav";
 }
 
-#main {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
 #shortcap {
   font-size: 2vw;
   bottom: 21%;
 }
-
 #longcap {
   font-size: 1.5vw;
   bottom: 15%;
@@ -92,4 +88,8 @@ nav {
 
 input {
   font-size: 13pt;
+}
+
+#main {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }

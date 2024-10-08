@@ -95,11 +95,21 @@ header {
 #shortcap {
   background-color: white;
 }
-
 #longcap {
   background-color: darkgreen;
   color: white;
 }
+#inline-credit {
+  background-color: white;
+  bottom: 5%;
+  right: 0;
+  font-size: 1vw;
+}
+#block-credit {
+  text-align: right;
+  font-size: 1.5vw;
+}
+
 .nav-icon {
   margin: auto;
 }
@@ -134,7 +144,7 @@ a:hover {
 .menu-item:nth-child(2n) {
   background-color: darkgreen;
 }
-.menu-item:nth-child(2n+1) {
+.menu-item:nth-child(2n + 1) {
   background-color: rgb(48, 148, 48);
 }
 .menu-item div {

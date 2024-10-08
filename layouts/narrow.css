@@ -3,7 +3,8 @@ aside,
 #blank,
 #menu,
 .nav-icon,
-#nav-margin {
+#nav-margin,
+#inline-credit {
   display: none;
 }
 
@@ -38,15 +39,15 @@ aside,
 .caption {
   width: 100%;
   text-align: left;
-  padding: initial;
+  padding-left: initial;
+  padding-right: initial;
 }
 #shortcap {
-  font-size: 2.5vw;
-  bottom: 4%;
+  font-size: 3vw;
+  bottom: 6.6%;
 }
-
 #longcap {
-  font-size: 2vw;
+  font-size: 2.4vw;
   bottom: 0%;
 }
 header {
