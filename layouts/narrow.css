@@ -53,8 +53,7 @@ header {
 
 nav {
   font-size: 4vw;
-  margin-top: auto;
-  margin-bottom: auto;
+  border-bottom: 1px solid black;
 }
 #nav-container {
   grid-template-columns: 1fr 1fr 1fr 1fr;
