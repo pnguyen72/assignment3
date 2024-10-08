@@ -85,14 +85,14 @@ input {
 }
 
 .social-icon {
-  height: 4.5vw;
-  width: 4.5vw;
+  height: 4.2vw;
+  width: 4.2vw;
 }
 footer {
-  grid-template-columns: 40vw 1fr;
+  grid-template-columns: 38vw 1fr;
   grid-template-rows:
     1fr
-    5vw
+    4.8vw
     1fr;
-  font-size: 2.2vw;
+  font-size: 2.1vw;
 }
