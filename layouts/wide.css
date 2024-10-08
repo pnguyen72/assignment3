@@ -36,7 +36,7 @@ header {
 
 #shortcap {
   font-size: 2.5vw;
-  bottom: 18%
+  bottom: 18%;
 }
 
 #longcap {
@@ -81,5 +81,9 @@ nav {
 }
 
 #subscribe > p {
-  font-size: 14pt;
+  font-size: 16pt;
+}
+
+input{
+    font-size: 13pt;
 }

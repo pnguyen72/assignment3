@@ -14,7 +14,7 @@ aside,
     45vw /*    header */
     60vw /*    image */
     0.25fr /*  subscribe */
-    8fr /*    main */
+    9fr /*    main */
     0.25fr; /* footer */
   grid-template-areas:
     "margin-l header margin-r"
@@ -70,7 +70,9 @@ nav {
 #subscribe > img {
   height: 5vw;
 }
-#subscribe > p,
-input {
+#subscribe > p {
   font-size: 2.5vw;
+}
+input {
+  font-size: 2vw;
 }
