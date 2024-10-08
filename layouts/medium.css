@@ -13,21 +13,21 @@ aside,
     20vw /*  header */
     48vw /*  image */
     1fr /* menu */
-    1fr /* margin */
-    2fr /* subscribe */
-    1fr /* margin */
-    8fr /*  main */
+    0.5fr /* margin */
+    1.5fr /* subscribe */
+    0.5fr /* margin */
+    6fr /*  main */
     1.5fr; /* footer */
 
   grid-template-areas:
-    "margin-l header    margin-r"
-    "margin-l image     margin-r"
-    "margin-l menu      margin-r"
-    "margin-l subscribe-top margin-r"
-    "margin-l subscribe margin-r"
+    "margin-l header           margin-r"
+    "margin-l image            margin-r"
+    "margin-l menu             margin-r"
+    "margin-l subscribe-top    margin-r"
+    "margin-l subscribe        margin-r"
     "margin-l subscribe-bottom margin-r"
-    "margin-l main      margin-r"
-    "margin-l footer    margin-r";
+    "margin-l main             margin-r"
+    "margin-l footer           margin-r";
 }
 header {
   display: grid;
