@@ -91,16 +91,16 @@ input {
 }
 
 .social-icon {
-  height: 2.8vw;
-  width: 2.8vw;
+  height: 2.6vw;
+  width: 2.6vw;
 }
 footer {
-  grid-template-columns: 24vw 1fr;
+  grid-template-columns: 22vw 1fr;
   grid-template-rows:
     1fr
-    3vw
+    2.9vw
     1fr;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 
 #main {
