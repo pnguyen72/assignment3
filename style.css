@@ -111,10 +111,16 @@ footer {
 header {
   background-color: rgb(255, 239, 213, 0.75);
 }
+#main {
+  padding: 0.5vw;
+}
 #main > div {
   border: 0.1vw solid black;
   margin: 0.5vw;
   padding: 0.5vw;
+}
+.social-icon:hover {
+  background-color: brown;
 }
 
 .caption {
@@ -228,7 +234,5 @@ footer {
 }
 #social-media {
   text-align: right;
-}
-.social-icon:hover {
-  background-color: brown;
+  padding-right: 1vw;
 }

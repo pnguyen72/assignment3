@@ -92,9 +92,10 @@ input {
 
 .social-icon {
   height: 24pt;
+  width: 24pt;
 }
 footer {
-  grid-template-columns: 240pt 1fr;
+  grid-template-columns: 280pt 1fr;
   grid-template-rows:
     1fr
     28pt

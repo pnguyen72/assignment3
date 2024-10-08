@@ -81,6 +81,7 @@ nav {
 
 .social-icon {
   height: min(4vw, 24pt);
+  width: min(4vw, 24pt);
 }
 footer {
   grid-template-columns: min(36vw, 240pt) 1fr;

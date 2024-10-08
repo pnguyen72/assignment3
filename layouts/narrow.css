@@ -86,6 +86,7 @@ input {
 
 .social-icon {
   height: 4.5vw;
+  width: 4.5vw;
 }
 footer {
   grid-template-columns: 40vw 1fr;
