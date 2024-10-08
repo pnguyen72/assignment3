@@ -74,7 +74,9 @@ aside {
 #main {
   display: grid;
 }
-
+header {
+  background-color: lightcoral;
+}
 #main > div {
   border: 0.1vw solid black;
   margin: 0.5vw;
@@ -88,17 +90,16 @@ aside {
   padding-right: 1em;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
-  opacity: 0.66;
+  opacity: 0.75;
 }
 #shortcap {
   background-color: white;
 }
 
 #longcap {
-  background-color: brown;
+  background-color: darkgreen;
   color: white;
 }
-
 .nav-icon {
   margin: auto;
 }
@@ -109,9 +110,9 @@ aside {
   display: grid;
   text-align: center;
 }
-#nav-container a:hover,
-.menu-item:hover {
+#nav-container a:hover {
   background-color: brown;
+  color: white;
 }
 a {
   text-decoration: none;
@@ -120,7 +121,6 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: white;
 }
 
 #menu {
@@ -131,8 +131,20 @@ a:hover {
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
 }
-.menu-item {
-  background-color: cyan;
+.menu-item:nth-child(2n) {
+  background-color: darkgreen;
+}
+.menu-item:nth-child(2n+1) {
+  background-color: rgb(48, 148, 48);
+}
+.menu-item div {
+  color: white;
+}
+.menu-item:hover {
+  background-color: lightgreen;
+}
+.menu-item:hover div {
+  color: black;
 }
 
 aside {
@@ -144,7 +156,7 @@ aside {
     color: red;
   }
   50% {
-    color: cyan;
+    color: green;
   }
   100% {
     color: red;

@@ -11,7 +11,7 @@ video,
     1fr /*  aside  menu */
     1fr /*  margin margin */
     2fr /*  aside  subscribe */
-    1fr/*   margin margin */
+    1fr /*   margin margin */
     6fr /*  aside  main */
     6fr /*  blank  main */
     2fr; /* footer footer */
@@ -49,11 +49,11 @@ header {
 }
 
 nav {
-  font-size: 14pt;
+  font-size: 1.4vw;
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 8fr 1fr;
   grid-template-areas: "nav nav-margin";
 }
 #nav-container {
@@ -65,13 +65,15 @@ nav {
   display: grid;
   grid-template-columns: 10vh 1fr;
   align-items: center;
+  gap: 0.2vw;
 }
-
 .nav-icon {
-  height: 4vw;
-  width: 4vw;
+  height: 3.6vw;
+  width: 3.6vw;
 }
-
+.nav-text {
+  text-align: left;
+}
 .menu-item {
   font-size: 16pt;
 }

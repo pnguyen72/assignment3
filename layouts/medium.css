@@ -48,7 +48,7 @@ header {
 }
 
 nav {
-  font-size: 16pt;
+  font-size: 1.8vw;
   margin-top: auto;
   margin-bottom: auto;
   display: grid;
@@ -60,9 +60,8 @@ nav {
 }
 #nav-container > a {
   display: grid;
-  gap: 6pt;
+  gap: 8pt;
 }
-
 .nav-icon {
   height: 5vw;
   width: 5vw;
