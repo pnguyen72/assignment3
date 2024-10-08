@@ -11,7 +11,7 @@ aside,
   height: 600vw;
   grid-template-columns: 1fr 80vw 1fr;
   grid-template-rows:
-    50vw /*    header */
+    45vw /*    header */
     60vw /*    image */
     0.25fr /*  subscribe */
     8fr /*    main */
@@ -45,8 +45,8 @@ aside,
 
 header {
   display: grid;
-  grid-template-columns: 1fr 35vw 1fr;
-  grid-template-rows: 1fr 35vw;
+  grid-template-columns: 1fr 40vw 1fr;
+  grid-template-rows: 1fr 40vw;
   grid-template-areas:
     "nav nav nav"
     "margin-l logo margin-r";
@@ -57,7 +57,7 @@ nav {
   margin-top: auto;
   margin-bottom: auto;
 }
-nav > ul {
+#nav-container {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 

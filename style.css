@@ -26,8 +26,8 @@ header {
 nav {
   grid-area: nav;
 }
-#nav-margin{
-    grid-area: nav-margin;
+#nav-margin {
+  grid-area: nav-margin;
 }
 aside {
   grid-area: aside;
@@ -99,22 +99,19 @@ aside {
 .nav-icon > img {
   display: block;
 }
-nav > ul {
-  padding-inline-start: 0;
+#nav-container {
   display: grid;
+  text-align: center;
 }
-nav li {
-  display: grid;
-  text-align: center
-}
-nav li:hover,
+#nav-container a:hover,
 .menu-item:hover {
   background-color: brown;
-  border-radius: 0%;
+  border-radius: 50%;
 }
 a {
   text-decoration: none;
   color: initial;
+  display: block;
 }
 a:hover {
   text-decoration: underline;
@@ -127,7 +124,7 @@ a:hover {
   background-color: black;
   border: 1pt solid black;
   grid-template-columns: repeat(4, 1fr);
-  text-align: center
+  text-align: center;
 }
 .menu-item {
   background-color: cyan;
@@ -151,7 +148,7 @@ aside {
 
 .flashing {
   animation: flashing-text 2s infinite;
-  text-align: center
+  text-align: center;
 }
 
 #subscribe {

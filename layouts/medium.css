@@ -51,14 +51,15 @@ nav {
   grid-template-columns: 1fr 8fr;
   grid-template-areas: "nav-margin nav";
 }
-nav > ul {
+#nav-container {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-nav li {
+#nav-container > a {
+  display: grid;
   gap: 6pt;
 }
 
-.nav-icon > img {
+.nav-icon {
   height: 5vw;
   width: 5vw;
 }
