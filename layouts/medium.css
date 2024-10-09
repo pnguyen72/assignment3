@@ -7,11 +7,11 @@ aside,
 }
 
 #grid-container {
-  height: 150vw;
+  height: 135vw;
   grid-template-columns: 1fr 90vw 1fr;
   grid-template-rows:
     20vw /*  header */
-    54vw /*  image */
+    45vw /*  image */
     2fr /* menu */
     1fr /* margin */
     3fr /*   subscribe */
