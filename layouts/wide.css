@@ -34,7 +34,10 @@ header {
     "logo"
     "nav";
 }
-
+#logo {
+  height: 16vw;
+  width: 16vw;
+}
 #shortcap {
   font-size: 2vw;
   bottom: 21%;

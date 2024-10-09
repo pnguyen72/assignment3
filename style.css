@@ -99,10 +99,16 @@ footer {
     transform: rotate(360deg);
   }
 }
+#logo-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 #logo {
   margin: 10%;
   height: 80%;
   width: 80%;
+  display: block;
 }
 #logo:hover {
   animation: rotateAnim 4s infinite linear;
