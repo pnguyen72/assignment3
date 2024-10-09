@@ -57,7 +57,7 @@ nav {
 }
 #nav-container > a {
   display: grid;
-  gap: 8pt;
+  gap: 1vw;
 }
 .nav-icon {
   height: 5vw;
@@ -65,7 +65,7 @@ nav {
 }
 
 .menu-item {
-  font-size: 14pt;
+  font-size: 1.9vw;
 }
 
 #subscribe {
@@ -76,7 +76,7 @@ nav {
   height: 3.3vw;
 }
 #subscribe > p {
-  font-size: 1.7vw
+  font-size: 1.7vw;
 }
 input {
   font-size: 1.3vw;
