@@ -106,21 +106,6 @@ footer {
   height: 100%;
   object-fit: cover;
 }
-#main {
-  display: grid;
-}
-#main > div {
-  background-color: rgb(255, 255, 255, 0.75);
-}
-
-header {
-  background-color: rgb(255, 239, 213, 0.75);
-}
-#main > div {
-  border: 0.1vw solid black;
-  margin: 0.5vw;
-  padding: 0.5vw;
-}
 
 .caption {
   position: absolute;
@@ -232,4 +217,19 @@ footer {
 }
 #social-media {
   text-align: right;
+}
+
+#main {
+  display: grid;
+}
+#main > div {
+  background-color: rgb(255, 255, 255, 0.75);
+}
+#main > div {
+  border: 0.2vw solid black;
+  margin: 0.5vw;
+  padding: 1vw;
+}
+#main img {
+  width: 100%;
 }
