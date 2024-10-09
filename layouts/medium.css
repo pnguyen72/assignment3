@@ -8,16 +8,16 @@ aside,
 
 #grid-container {
   height: 150vw;
-  grid-template-columns: 1fr 80vw 1fr;
+  grid-template-columns: 1fr 90vw 1fr;
   grid-template-rows:
     20vw /*  header */
-    48vw /*  image */
-    1fr /* menu */
-    0.5fr /* margin */
-    1.5fr /* subscribe */
-    0.5fr /* margin */
-    6fr /*  main */
-    1.5fr; /* footer */
+    54vw /*  image */
+    2fr /* menu */
+    1fr /* margin */
+    3fr /*   subscribe */
+    1fr /* margin */
+    16fr /*   main */
+    3fr; /*  footer */
 
   grid-template-areas:
     "margin-l header           margin-r"
@@ -37,7 +37,7 @@ header {
 
 #shortcap {
   font-size: 2.5vw;
-  bottom: 22%;
+  bottom: 21.4%;
 }
 #longcap {
   font-size: 2vw;

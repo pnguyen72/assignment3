@@ -1,6 +1,7 @@
 body {
   background-color: papayawhip;
-  margin-top: 24pt;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
   background-image: url("resources/background.avif");
 }
 .center-text {
@@ -12,10 +13,18 @@ body {
 #grid-container {
   display: grid;
 }
-#grid-container > *:not(.margin) {
+#grid-container > :not(.margin) {
   background-color: rgb(255, 239, 213, 0.8);
-  padding: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
+#grid-container > :not(#menu) {
+  padding-top: 1vw;
+}
+#grid-container > :not(#image, #menu) {
+  padding-bottom: 1vw;
+}
+
 #left-margin {
   grid-area: margin-l;
 }
@@ -131,7 +140,7 @@ header {
 #inline-credit {
   background-color: rgb(255, 255, 255, 0.75);
   bottom: 5%;
-  right: 0;
+  right: 1vw;
   font-size: 1vw;
 }
 #block-credit {

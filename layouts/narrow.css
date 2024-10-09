@@ -9,15 +9,15 @@ aside,
 }
 
 #grid-container {
-  height: 400vw;
-  grid-template-columns: 1fr 80vw 1fr;
+  height: 500vw;
+  grid-template-columns: 1fr 90vw 1fr;
   grid-template-rows:
     45vw /*    header */
     60vw /*    image */
     0.25fr /*   margin  */
     0.5fr /*  subscribe */
     0.25fr /*   margin  */
-    9fr /*     main */
+    20fr /*     main */
     0.25fr; /* footer */
   grid-template-areas:
     "margin-l header           margin-r"
@@ -37,7 +37,7 @@ aside,
 }
 
 .caption {
-  width: 100%;
+  width: calc(100% - 2vw);
   text-align: left;
   padding-left: initial;
   padding-right: initial;
