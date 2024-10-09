@@ -57,6 +57,7 @@ nav {
 }
 #nav-container > a {
   display: grid;
+  text-align: center;
   gap: 1vw;
 }
 .nav-icon {

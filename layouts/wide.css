@@ -56,19 +56,16 @@ nav {
   margin: 0;
   height: 100%;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  text-align: left;
 }
 #nav-container > a {
   display: grid;
-  grid-template-columns: 10vh 1fr;
+  grid-template-columns: 6.4vw 1fr;
   align-items: center;
-  gap: 0.2vw;
 }
 .nav-icon {
   height: 3.6vw;
   width: 3.6vw;
-}
-.nav-text {
-  text-align: left;
 }
 .menu-item {
   font-size: 1.4vw;

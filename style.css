@@ -141,7 +141,6 @@ footer {
 }
 #nav-container {
   display: grid;
-  text-align: center;
 }
 *:not(footer) a {
   text-decoration: none;
@@ -157,10 +156,10 @@ footer {
   text-align: center;
 }
 .menu-item:nth-child(2n) {
-  background-color: rgb(0, 100, 0, 0.85);
+  background-color: rgb(0, 100, 0);
 }
 .menu-item:nth-child(2n + 1) {
-  background-color: rgb(48, 148, 48, 0.85);
+  background-color: rgb(48, 148, 48);
 }
 .menu-item div {
   color: white;
@@ -223,10 +222,10 @@ footer {
   display: grid;
 }
 #main > div {
-  background-color: rgb(255, 255, 255, 0.75);
+  background-color: rgb(255, 255, 255, 0.5);
 }
 #main > div {
-  border: 0.2vw solid black;
+  border: max(0.1vw, 1pt) solid black;
   margin: 0.5vw;
   padding: 1vw;
 }
