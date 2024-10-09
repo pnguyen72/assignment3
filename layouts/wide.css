@@ -8,14 +8,14 @@
   height: 100vw;
   grid-template-columns: 1fr 20vw 70vw 1fr;
   grid-template-rows:
-    42vw /*  header image */
-    1fr /*   header  menu */
+    42vw /*   header image */
+    1fr /*    header menu */
     0.25fr /* margin margin */
-    1.5fr /* aside  subscribe */
-    0.25fr /* aside margin */
-    6fr /*   aside  main */
-    6fr /*   blank  main */
-    1.5fr; /*  footer footer */
+    1.5fr /*  aside  subscribe */
+    0.25fr /* aside  margin */
+    6fr /*    aside  main */
+    6fr /*    blank  main */
+    1.5fr; /* footer footer */
   grid-template-areas:
     "margin-l header        image            margin-r"
     "margin-l header        menu             margin-r"
