@@ -195,26 +195,6 @@ nav a:hover,
 .menu-item:hover div {
   color: black;
 }
-aside {
-  overflow-y: auto;
-}
-
-@keyframes flashingAnim {
-  0% {
-    color: red;
-  }
-  50% {
-    color: green;
-  }
-  100% {
-    color: red;
-  }
-}
-
-.flashing {
-  animation: flashingAnim 2s infinite;
-  text-align: center;
-}
 
 #subscribe {
   border-top: 1px dotted black;

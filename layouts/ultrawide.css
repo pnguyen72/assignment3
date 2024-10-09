@@ -21,8 +21,7 @@
 }
 #warning {
   opacity: 0;
-  animation: flashingAnim 2.1s ease-in;
-  animation-iteration-count: 5;
+  animation: flashingAnim 2.1s ease-in 5;
   font-size: 8vw;
   font-family: "Creepster", system-ui;
   font-weight: 400;

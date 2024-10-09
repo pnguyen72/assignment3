@@ -90,6 +90,37 @@ input {
   font-size: 1.05vw;
 }
 
+@keyframes flashingAnim {
+  0% {
+    color: red;
+  }
+  50% {
+    color: darkgreen;
+  }
+  100% {
+    color: red;
+  }
+}
+.flashing {
+  animation: flashingAnim 3s linear infinite;
+  text-align: center;
+}
+aside > p {
+  font-size: 1.2vw;
+}
+aside > h1 {
+  font-size: 1.8vw;
+}
+aside > h3 {
+  font-size: 1.5vw;
+}
+aside > h5 {
+  font-size: 0.9vw;
+}
+aside {
+  overflow-y: auto;
+}
+
 .social-icon {
   height: 2.6vw;
   width: 2.6vw;
