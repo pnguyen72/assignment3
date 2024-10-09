@@ -68,20 +68,20 @@ nav {
 }
 
 #subscribe {
-  grid-template-columns: 5vw 1fr;
-  grid-template-rows: 5vw 1fr;
+  grid-template-columns: 4.5vw 1fr;
+  grid-template-rows: 4.5vw 1fr;
   grid-template-areas:
     "subscribe-icon subscribe-text"
     "form form";
 }
 #subscribe > img {
-  height: 5vw;
+  height: 4.5vw;
 }
 #subscribe > p {
   font-size: 2.4vw;
 }
 input {
-  font-size: 2.1vw;
+  font-size: 2.2vw;
 }
 
 .social-icon {

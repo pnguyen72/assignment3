@@ -75,19 +75,19 @@ nav {
 }
 
 #subscribe {
-  grid-template-columns: 2.8vw 2fr 1fr;
+  grid-template-columns: 2.85vw 2fr 1fr;
   grid-template-areas: "subscribe-icon subscribe-text form";
 }
 #subscribe > img {
-  height: 2.8vw;
-  width: 2.8vw;
+  height: 2.85vw;
+  width: 2.85vw;
 }
 
 #subscribe > p {
-  font-size: 1.3vw;
+  font-size: 1.35vw;
 }
 input {
-  font-size: 1vw;
+  font-size: 1.05vw;
 }
 
 .social-icon {
