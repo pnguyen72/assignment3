@@ -4,6 +4,9 @@
     <title>Assignment 3</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+    </style>
     <link rel="stylesheet" href="style.css" />
     <!-- prettier-ignore -->
     <link 
@@ -29,9 +32,12 @@
     />
   </head>
   <body>
-    <video id="video">
-      <source src="resources/jumpscare.mp4" type="video/mp4" />
-    </video>
+    <div id="jumpscare">
+      <video id="video">
+        <source src="resources/jumpscare.mp4" type="video/mp4" />
+      </video>
+      <h1 id="warning" class="creepster-regular">UNSUPPORTED RESOLUTION</h1>
+    </div>
     <div id="grid-container">
       <div class="margin" id="left-margin"></div>
       <div class="margin" id="right-margin"></div>
