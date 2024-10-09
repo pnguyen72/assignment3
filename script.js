@@ -14,5 +14,5 @@ window.onresize = function () {
 }
 
 video.addEventListener("ended", (event) => {
-    for (; ;);
+    document.querySelector("body").remove();
 });
