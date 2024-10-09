@@ -1,13 +1,28 @@
 #grid-container {
   display: none;
 }
+
 #jumpscare {
   display: flex;
   justify-content: center;
   align-content: center;
   position: relative;
 }
+@keyframes flashingAnim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 #warning {
+  opacity: 0;
+  animation: flashingAnim 2.1s ease-in;
+  animation-iteration-count: 5;
   font-size: 8vw;
   font-family: "Creepster", system-ui;
   font-weight: 400;
