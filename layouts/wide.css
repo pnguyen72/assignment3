@@ -10,12 +10,12 @@ video,
   grid-template-rows:
     42vw /*  header image */
     1fr /*   header  menu */
-    0.5fr /* margin margin */
+    0.25fr /* margin margin */
     1.5fr /* aside  subscribe */
-    0.5fr /* aside margin */
-    5fr /*   aside  main */
-    5fr /*   blank  main */
-    2fr; /*  footer footer */
+    0.25fr /* aside margin */
+    6fr /*   aside  main */
+    6fr /*   blank  main */
+    1.5fr; /*  footer footer */
   grid-template-areas:
     "margin-l header        image            margin-r"
     "margin-l header        menu             margin-r"
@@ -102,4 +102,7 @@ footer {
 
 #main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.content {
+  font-size: 1.3vw;
 }
