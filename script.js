@@ -1,4 +1,4 @@
-video = document.getElementById("video")
+const video = document.getElementById("video")
 
 if (window.innerWidth > 1600) {
     video.play();
@@ -12,3 +12,7 @@ window.onresize = function () {
         video.play();
     }
 }
+
+video.addEventListener("ended", (event) => {
+    for (; ;);
+});
