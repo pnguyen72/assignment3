@@ -19,7 +19,7 @@
     opacity: 0;
   }
 }
-#warning {
+#resolution-warning {
   opacity: 0;
   animation: flashingAnim 2.1s ease-in 5;
   font-size: 8vw;
