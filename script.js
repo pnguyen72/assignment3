@@ -12,10 +12,6 @@ function removeAllContent(backgroundColor = "initial") {
   videoEnded = true;
 }
 
-if (navigator.getAutoplayPolicy("mediaelement") != "allowed")
-  removeAllContent();
-else document.getElementById("autoplay-request").remove();
-
 if (window.innerWidth > 1800) video.play();
 
 window.onresize = function () {
