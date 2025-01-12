@@ -16,10 +16,10 @@ if (navigator.getAutoplayPolicy("mediaelement") != "allowed")
   removeAllContent();
 else document.getElementById("autoplay-request").remove();
 
-if (window.innerWidth > 1600) video.play();
+if (window.innerWidth > 1800) video.play();
 
 window.onresize = function () {
-  if (window.innerWidth <= 1600) {
+  if (window.innerWidth <= 1800) {
     video.pause();
     video.currentTime = 0;
   } else if (!videoEnded) {
